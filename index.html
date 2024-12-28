@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="corkboard-container">
+      <header class="header">
+        <h1>My To-Do List</h1>
+      </header>
+
+      <div class="sticky-notes">
+        <div class="sticky-note" style="background-color: #ffeb3b">
+          Buy Groceries
+        </div>
+        <div class="sticky-note" style="background-color: #8bc34a">
+          Finish Homework
+        </div>
+        <div class="sticky-note" style="background-color: #ff5722">
+          Call Mom
+        </div>
+        <div class="sticky-note" style="background-color: #03a9f4">
+          Schedule Meeting
+        </div>
+        <div class="sticky-note" style="background-color: #e91e63">
+          Pay Bills
+        </div>
+        <div class="sticky-note" style="background-color: #9c27b0">
+          Plan Weekend Trip
+        </div>
+
+        <div class="add-new-item">
+          <input
+            type="text"
+            id="note-input"
+            placeholder="Add a new To-Do item..."
+          />
+          <button id="add-btn">Add</button>
+          <div class="corkboard"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
