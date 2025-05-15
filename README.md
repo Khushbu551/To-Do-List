@@ -20,6 +20,8 @@ A simple **TO-DO List web application** that allow user to **add, manage, and de
 2. Click the **"Add"** button to create a sticky note.
 3. Click the X **delete button** on a sticky note to remove it.
 
+**Note:** THis project was built for learning purposes to explore and practice [mention technologies]. Security and production-level optimizations are not the primary focus.
+
 ## Preview
 
 ![ Weather App](/images/pic.png)
